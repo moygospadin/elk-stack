@@ -13,6 +13,8 @@ services:
       - "9200:9200"
     volumes:
       - es-data:/usr/share/elasticsearch/data
+    volumes:
+      - ./data/es-data:/data/es-data
 
   kibana:
     image: docker.elastic.co/kibana/kibana:8.10.2
