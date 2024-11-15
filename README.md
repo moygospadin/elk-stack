@@ -1,5 +1,6 @@
 Setup for nest js
 
+docker compose up -d
 
 yarn add @nestjs/winston winston winston-elasticsearch
 
